@@ -1,1 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+.startup{
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://image.shutterstock.com/image-vector/travel-tourism-background-famous-world-260nw-316967852.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.logo img{
+	width: 50%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
 
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top:0;
+	cursor: pointer;
+	background-color:black;
+}
+
+.nav-list{
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+}
+.nav-list li a:hover{
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+	transition-delay: 0.3s; 
+}
+
+.right-nav{
+	width: 50%;
+	text-align:right;
+}
+#search{
+	padding: 5px;
+	font-size: 17px;
+	border: 2px solid grey;
+    border-radius:9px;
+}
+h1{
+	text-align:left;
+	font-size: 50px;
+	padding: 26px 32px;
+	text-shadow: 2px 2px 5px grey;
+}
+p{
+	font-family: sans-serif;
+	color: #000;
+	font-size: 25px;
+	padding: 0px 32px;
+}
+
+.us{
+	padding-left: 60px;
+	font-size: 20px;
+}
+
+.pass{
+	padding-left: 60px;
+	font-size: 20px;
+
+}
+
+.sub{
+   padding-left: 200px;
+}
+
+.bubbles img{
+	width: 50px;
+	animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+@keyframes bubble{
+	0%{
+		transform: translateY(0);
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	70%{
+		opacity: 1;
+	}
+	100%{
+		transform: translateY(-80vh);
+		opacity: 0;
+	}
+
+}
+
+.bubbles img:nth-child(1){
+	animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+	animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+	animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+	animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+	animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+	animation-delay: 6s;
+}
+.bubbles img:nth-child(7){
+	animation-delay: 7s;
+}
+
+.mess{
+	text-align:center;
+	font-size: 50px;
+	padding: 26px 32px;
+	text-shadow: 2px 2px 5px #15f4ee;
+}
+
+.place{
+	padding-left: 60px;
+	font-size: 20px;
+}
+
+.email{
+	padding-left: 60px;
+	font-size: 20px;
+}
