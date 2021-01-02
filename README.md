@@ -1,2 +1,2 @@
 # Cognizance_Project
-link:
+link: https://paayas.github.io/Cognizance_Project/
